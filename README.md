@@ -16,7 +16,7 @@
 |                 | 6.1 함수 기초: 매개변수와 리턴값사용하기, 에러저장, 함수에 변수저장 등      |                 |             |          |
 |                 | 6.2 함수 심화I: 값으로 취급되는 함수(함수리터럴, 고계함수, 클로저 등)        |                 |             |          |
 |                 | 6.3 함수 심화II: 메서드(단순자료형, 문자열다중집항, 포인트리시버, 공개 비 공개)     |                 |             |          |
-|                 | 7. 구조체:  사용법, 구조체-메소드 연결, 직렬화&역직렬화                      |                 |             |          |
+|                 | 7. 구조체: 사용법, 구조체-메소드 연결, 직렬화&역직렬화                      |                 |             |          |
 |                 | 8. 인터페이스: 정의, 커스텀프린터, 정렬과 힙, 빈인터베이스, 덕타입핑   |                 |             |          |
 |                 | 9. 동시성: 고루틴, 채널, 동시성 패턴 등   |                 |             |          |
 |                 | 미니프로젝트1: To do list 만들기                   |                 |             |          |
@@ -33,82 +33,23 @@
 
 
 
-스터디 커리큘럼 설계를 위해 [Discovery Go 언어](http://www.hanbit.co.kr/store/books/look.php?p_code=B5279497767)와 [가장 빨리 만나는 Go언어](http://pyrasis.com/go.html)를 참조하였습니다. 
+스터디 커리큘럼 설계를 위해 [Discovery Go 언어](http://www.hanbit.co.kr/store/books/look.php?p_code=B5279497767)와 [가장 빨리 만나는 Go언어](http://pyrasis.com/go.html)를 참조하였습니다. 제가 분야 지식이 부족하여 일단 주요해보이는 것들을 넣었는데 스터디 리더가 공부를 하는 과정에서 빠진 내용 추가, 중요치 않은 내용은 삭제해도 좋습니다 :) 
 
-## Quick Start
+## 스터디 방법
 
-### Step 1) Fork Jekyll Now to your User Repository
+### Step 1) 매주 팀리더가 계획표에 해당하는 내용을 준비해온다. 
 
-Fork this repo, then rename the repository to yourgithubusername.github.io.
+계획표를 만들 때, 활용했던 두 권의 책, 책의 설명이 부족하다면 추가적으로 넣는다. 
 
-Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+`Dos and Don'ts` <br>
+✓ 흠.. 기본문법에 숫자형 내용이 들어가야겠는걸, 추가해서 준비해온다.      
+✘ 문맥설명이 중요도에 대한 이해없이 책에 나온 코드만 똑같이 따라친다.
 
-![Step 1](/images/step1.gif "Step 1")
+### Step 2) 스터디한 컨텐츠와 당시 나온 질문들을 잘 정리하여, gitpage에 올린다. 
 
-### Step 2) Customize and view your site
+## Questions or Comments?
 
-Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
-
-Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon
-
-> There are 3 different ways that you can make changes to your blog's files:
-
-> 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
-> 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
-> 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
-
-![_config.yml](/images/config.png "_config.yml")
-
-### Step 3) Publish your first blog post
-
-Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
-
-![First Post](/images/first-post.png "First Post")
-
-> You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
-
-## Local Development
-
-1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
-2. Clone down your fork `git clone https://github.com/yourusername/yourusername.github.io.git`
-3. Serve the site and watch for markup/sass changes `jekyll serve`
-4. View your website at http://127.0.0.1:4000/
-5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
-
-## Moar!
-
-I've created a more detailed walkthrough, [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) over at the Smashing Magazine website. Check it out if you'd like a more detailed walkthrough and some background on Jekyll. :metal:
-
-It covers:
-
-- A more detailed walkthrough of setting up your Jekyll blog
-- Common issues that you might encounter while using Jekyll
-- Importing from Wordpress, using your own domain name, and blogging in your favorite editor
-- Theming in Jekyll, with Liquid templating examples
-- A quick look at Jekyll 2.0’s new features, including Sass/Coffeescript support and Collections
-
-## Jekyll Now Features
-
-✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
-✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)  
-✓ Sass/Coffeescript support using Jekyll 2.0  
-✓ Free hosting on your GitHub Pages user site  
-✓ Markdown blogging  
-✓ Syntax highlighting  
-✓ Disqus commenting  
-✓ Google Analytics integration  
-✓ SVG social icons for your footer  
-✓ 3 http requests, including your avatar  
-
-✘ No installing dependencies
-✘ No need to set up local development  
-✘ No configuring plugins  
-✘ No need to spend time on theming  
-✘ More time to code other things ... wait ✓!  
-
-## Questions?
-
-[Open an Issue](https://github.com/barryclark/jekyll-now/issues/new) and let's chat!
+[Open an Issue]https://github.com/gostudygroup/gostudygroup.github.io/issues/new) and let's chat!
 
 ## Other forkable themes
 
