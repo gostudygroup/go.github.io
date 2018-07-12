@@ -1,20 +1,39 @@
-> March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/barryclark/jekyll-now/pull/445/files):sparkles: and you'll be set!
+> 스터디용으로 제작한 페이지입니다. 잘못된 내용이나 추가설명 환영합니다 :)
 
-# Jekyll Now
+# Go 
 
-**Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+**Go** 언어는 2009년 구글이 공개한 프로그래밍 언어로 간결하게 생산성이 높은 프로그래밍을 만들 수 있다.
 
-**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
+**스터디 일정** 
 
-- You don't need to touch the command line
-- You don't need to install/configure ruby, rvm/rbenv, ruby gems :relaxed:
-- You don't need to install runtime dependencies like markdown processors, Pygments, etc
-- If you're on Windows, this will make setting up Jekyll a lot easier
-- It's easy to try out, you can just delete your forked repository if you don't like it
+| 날짜            | 주제                                                           | 과제            | 팀장        | 장소       |
+| :-------------: | ------------------------------------------------------------ | -------------- | :---------: | :-------: |
+|                 | 0. Go 소개 <br> 1. 기본문법: 세미콜론, 주석, 중괄호, 들여쓰기      |                 |             |          |
+|                 | 2. 변수: 종류, 선언, 숫자사용  <br> 3.1 문자열 기초: 길이, 연산, 수정                          |                 |             |          |
+|                 | 3.2 문자열 심화: 유니코드,바이트처리, 붙이기, 숫자변환 <br> 4. 조건문&반복문: if, for,switch     |                 |             |          |
+|                 | 5. 배열&슬라이스:덧붙이기, 용량, 복사, 삽입,삭제  <br> 6. 맵: 맵사용, 집합, 한계                 |                 |             |          |
+|                 | 연습문제풀기: 디스커버리 Go언어(p108-110) + 추가예제     |                 |             |          |
+|                 | 6.1 함수 기초: 매개변수와 리턴값사용하기, 에러저장, 함수에 변수저장 등      |                 |             |          |
+|                 | 6.2 함수 심화I: 값으로 취급되는 함수(함수리터럴, 고계함수, 클로저 등)        |                 |             |          |
+|                 | 6.3 함수 심화II: 메서드(단순자료형, 문자열다중집항, 포인트리시버, 공개 비 공개)     |                 |             |          |
+|                 | 7. 구조체:  사용법, 구조체-메소드 연결, 직렬화&역직렬화                      |                 |             |          |
+|                 | 8. 인터페이스: 정의, 커스텀프린터, 정렬과 힙, 빈인터베이스, 덕타입핑   |                 |             |          |
+|                 | 9. 동시성: 고루틴, 채널, 동시성 패턴 등   |                 |             |          |
+|                 | 미니프로젝트1: To do list 만들기                   |                 |             |          |
+|                 | 프로젝트 이후, 추가적으로 공부할 내용을 선별해서 진행  |                 |             |          |
+|                 | 미니프로젝트2: 웹크롤러 작성하기                    |                 |             |          |
+|                 | 프로젝트 이후, 추가적으로 공부할 내용을 선별해서 진행  |                 |             |          |
+|                 | 미니프로젝트3: 채팅서버 작성하기                    |                 |             |          |
+|                 | 프로젝트 이후, 추가적으로 공부할 내용을 선별해서 진행  |                 |             |          |
+|                 | 10.1. Go로 구현하는 블록체인-하이퍼레저                           |                 |             |          |
+|                 | 10.2. Go로 구현하는 블록체인-이더리움                    |                 |             |          |
+|                 | 미니프로젝트4: Go를 활용한 블록체인 프로젝트              |                 |             |          |
+|                 | 11. 총정리                      |                 |             |          |
 
-In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
 
-![Jekyll Now Theme Screenshot](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
+
+
+스터디 커리큘럼 설계를 위해 [Discovery Go 언어](http://www.hanbit.co.kr/store/books/look.php?p_code=B5279497767)와 [가장 빨리 만나는 Go언어](http://pyrasis.com/go.html)를 참조하였습니다. 
 
 ## Quick Start
 
